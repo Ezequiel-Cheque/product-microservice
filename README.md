@@ -35,9 +35,8 @@ $ npm install
 ## Create Prisma Client
 
 ```bash
-$ npx prisma init --datasource-provider sqlite
-
-$ npx prisma migrate dev --name init
+# Ejecutar migracion de prisma
+$ npx prisma migrate dev
 ```
 
 ## Running the app
